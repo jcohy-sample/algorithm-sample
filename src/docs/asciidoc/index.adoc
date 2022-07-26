@@ -1,29 +1,18 @@
-[[algorithm-overview]]
-= 算法和数据结构
+[[java]]
+= Java
 include::attributes.adoc[]
 
-== 简介
+****
+作者网页:
+https://www.jcohy.com[*https://www.jcohy.com*]
+
+文档翻译网址:
+https://www.jcohy.com[*https://www.jcohy.com/projects*]
+
+我的学习笔记,记录学习过程中的笔记以及遇到的问题,以及我的一些经验总结.如果出现链接失效,或者想知道更多的内容等情况可以提交 https://github.com/jcohy/jcohy-issues/issues[Issues] 提醒我修改相关内容.
+****
 
 数据结构是一门研究算法的学科
 
 程序 = 数据结构 + 算法
-
-include::structure.adoc[leveloffset=+1]
-//
-//include::algorithm/sort.adoc[leveloffset=+1]
-//
-//include::algorithm/simple.adoc[leveloffset=+1]
-//
-//include::algorithm/recursive.adoc[leveloffset=+1]
-//
-//include::algorithm/array.adoc[leveloffset=+1]
-//
-//include::algorithm/list.adoc[leveloffset=+1]
-//
-//include::algorithm/stack.adoc[leveloffset=+1]
-//
-//include::algorithm/queue.adoc[leveloffset=+1]
-//
-//include::algorithm/graph.adoc[leveloffset=+1]
-//
-//include::algorithm/other.adoc[leveloffset=+1]
+[horizontal]
