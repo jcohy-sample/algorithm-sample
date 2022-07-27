@@ -16,3 +16,4 @@
 
 :java-code: {rootProject}/src/main/java/com/jcohy/sample/algorithm
 :go-code: {rootProject}/src/main/go/com/jcohy/sample/algorithm
+:oss-images: https://study.jcohy.com/images

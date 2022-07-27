@@ -6,7 +6,7 @@ description = "Jcohy Study Algorithm Sample"
 
 asciidoctor {
 	sources {
-		include "index.adoc"
+		include "index.singleadoc"
 	}
 }
 
