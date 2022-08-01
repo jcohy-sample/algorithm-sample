@@ -44,7 +44,7 @@ include::{algorithm-code}/arrays/SparseMatrix.java[tag=code]
 .Go
 [source,go,indent=0,subs="verbatim,quotes",role="secondary"]
 ----
-include::{go-code}/chapter20/sparsearray/main.go[tag=code]
+include::{go-code}/sparsearray/main.go[tag=code]
 ----
 
 == 下三角矩阵

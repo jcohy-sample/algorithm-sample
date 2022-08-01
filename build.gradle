@@ -3,6 +3,8 @@ description = "jcohy-study-sample"
 group = "com.jcohy.sample"
 version = "1.0.0"
 
+apply plugin: 'java'
+
 repositories {
     mavenCentral()
     maven { url = 'https://maven.aliyun.com/repository/central'}

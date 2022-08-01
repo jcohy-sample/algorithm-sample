@@ -38,7 +38,7 @@ image::{oss-images}/algorithm-sort2.png[complexity]
 
 ==== 算法描述
 
-前提条件: 序列 `$S=\{ S_0,S_2,S_3,...,S_{n-1}\}$` 是 `n` 个可排序元素的序列
+前提条件: 序列 `$S=\{ S_0,S_1,S_2,S_3,...,S_{n-1}\}$` 是 `n` 个可排序元素的序列
 
 . 令 `j` 从 `n-1` 递减到 `1`,重复步骤 2~4
 . 令 `i` 从 `1` 递增到 `j`,重复步骤 3
@@ -93,6 +93,11 @@ include::{go-code}/sort/bubblesort/main.go[]
 .Java
 ----
 include::{java-code}/sort/BubbleSort2.java[tag=code]
+----
+.Go
+[source,go,indent=0,subs="verbatim,quotes",role="secondary"]
+----
+include::{go-code}/sort/bubblesort/BubbleSort2.go[]
 ----
 
 [[algorithm-sort-exchange-quick]]
