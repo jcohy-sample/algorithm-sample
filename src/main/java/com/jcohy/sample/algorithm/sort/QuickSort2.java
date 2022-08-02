@@ -16,7 +16,7 @@ public class QuickSort2 extends Object {
     int data[] = new int[100];
 
     public static void main(String args[]) {
-        QuickSort2 test = new QuickSort2();
+        QuickSort2 quickSort = new QuickSort2();
 
 //		System.out.print("请输入数组大小(100以下): ");
 //		try{
@@ -28,9 +28,9 @@ public class QuickSort2 extends Object {
 //		test.inputarr ();
 //		System.out.print("原始数据是: ");
 //		test.showdata ();
-        int[] datas = {9, -16, 21, 23, -30, -49, 21, 30, 30};
+        int[] datas = {49,38,65,97,76,13,27,49};
         System.out.println("排序之前: \n" + java.util.Arrays.toString(datas));
-        test.quick(datas, datas.length, 0, datas.length - 1);
+        quickSort.quick(datas, datas.length, 0, datas.length - 1);
 //		System.out.print("\n排序结果: ");
         System.out.println("排序之后: \n" + java.util.Arrays.toString(datas));
 //		test.showdata();
@@ -45,7 +45,7 @@ public class QuickSort2 extends Object {
         }
     }
 
-    void showdata() {
+    void showData() {
         int i;
         for (i = 0; i < size; i++) {
             System.out.print(data[i] + " ");
@@ -53,28 +53,23 @@ public class QuickSort2 extends Object {
         System.out.print("\n");
     }
 
-    void quick(int d[], int size, int lf, int rg) {
+    void quick(int[] d, int size, int left, int right) {
         int i, j, tmp;
         int lf_idx;
         int rg_idx;
-        int t;
-        //1:第一个键值为d[lf]
-        if (lf < rg) {
-            lf_idx = lf + 1;
-            rg_idx = rg;
+
+        //1:第一个键值为 d[left]
+        if (left < right) {
+            lf_idx = left + 1;
+            rg_idx = right;
 
             //排序
             while (true) {
-                System.out.print("[处理过程" + (process++) + "]=> ");
-                for (t = 0; t < size; t++) {
-                    System.out.print("[" + d[t] + "] ");
-                }
-
-                System.out.print("\n");
+                showData();
 
                 //2:由左向右找出一个键值大于d[lf]者
-                for (i = lf + 1; i <= rg; i++) {
-                    if (d[i] >= d[lf]) {
+                for (i = left + 1; i <= right; i++) {
+                    if (d[i] >= d[left]) {
                         lf_idx = i;
                         break;
                     }
@@ -82,8 +77,8 @@ public class QuickSort2 extends Object {
                 }
 
                 //3:由右向左找出一个键值小于d[lf]者
-                for (j = rg; j >= lf + 1; j--) {
-                    if (d[j] <= d[lf]) {
+                for (j = right; j >= left + 1; j--) {
+                    if (d[j] <= d[left]) {
                         rg_idx = j;
                         break;
                     }
@@ -106,14 +101,14 @@ public class QuickSort2 extends Object {
             //5-1:若lf_idx大于等于rg_idx
             if (lf_idx >= rg_idx) {
                 //则将d[lf]和d[rg_idx]互换
-                tmp = d[lf];
-                d[lf] = d[rg_idx];
+                tmp = d[left];
+                d[left] = d[rg_idx];
                 d[rg_idx] = tmp;
                 //5-2:并以rg_idx为基准点分成左右两半
                 //以递归方式分别为左右两半进行排序
-                quick(d, size, lf, rg_idx - 1);
+                quick(d, size, left, rg_idx - 1);
                 //直至完成排序
-                quick(d, size, rg_idx + 1, rg);
+                quick(d, size, rg_idx + 1, right);
             }
         }
     }
