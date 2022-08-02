@@ -3,11 +3,9 @@ package main
 
 import (
 	"fmt"
-	"math/rand"
-	"time"
 )
 
-func InsertSort(arr *[80000]int) {
+func InsertSort(arr *[9]int) {
 
 	//完成第一次，给第二个元素找到合适的位置并插入
 
@@ -25,28 +23,27 @@ func InsertSort(arr *[80000]int) {
 		if insertIndex+1 != i {
 			arr[insertIndex+1] = insertVal
 		}
-		//fmt.Printf("第%d次插入后 %v\n",i, *arr)
+		fmt.Printf("第%d次插入后 %v\n", i, *arr)
 	}
 }
 
 func main() {
-
-	//arr := [7]int{23, 0, 12, 56,  34, -1, 55}
-
-	var arr [80000]int
-	for i := 0; i < 80000; i++ {
-		arr[i] = rand.Intn(900000)
-	}
-
-	//fmt.Println(arr)
-	start := time.Now().Unix()
-	//fmt.Println("原始数组=", arr)
+	arr := [9]int{9, -16, 21, 23, -30, -49, 21, 30, 30}
+	fmt.Println("排序之前： \n", arr)
 	InsertSort(&arr)
-	end := time.Now().Unix()
-
-	fmt.Println("main 函数")
-	fmt.Printf("插入排序耗时%d秒", end-start)
-	//fmt.Println(arr)
+	fmt.Println("排序之后: \n", arr)
+	// 排序之前：
+	//  [9 -16 21 23 -30 -49 21 30 30]
+	// 第1次插入后 [9 -16 21 23 -30 -49 21 30 30]
+	// 第2次插入后 [21 9 -16 23 -30 -49 21 30 30]
+	// 第3次插入后 [23 21 9 -16 -30 -49 21 30 30]
+	// 第4次插入后 [23 21 9 -16 -30 -49 21 30 30]
+	// 第5次插入后 [23 21 9 -16 -30 -49 21 30 30]
+	// 第6次插入后 [23 21 21 9 -16 -30 -49 30 30]
+	// 第7次插入后 [30 23 21 21 9 -16 -30 -49 30]
+	// 第8次插入后 [30 30 23 21 21 9 -16 -30 -49]
+	// 排序之后:
+	//  [30 30 23 21 21 9 -16 -30 -49]
 }
 
 // end::code[]
