@@ -22,6 +22,13 @@ public class Test_1023 {
         int sumF = a[0][2] + a[1][1] + a[2][0];
         System.out.println(sumZ + " " + sumF);
     }
-
+    /**
+     *  例如:
+     *  5 3 9
+     *  8 7 9
+     *  15 5 3
+     *  输出
+     *  15 31
+     */
 }
 // end::code[]

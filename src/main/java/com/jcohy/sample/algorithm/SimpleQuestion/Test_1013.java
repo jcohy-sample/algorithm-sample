@@ -2,7 +2,7 @@ package com.jcohy.sample.algorithm.SimpleQuestion;
 
 import java.util.Scanner;
 
-//阶乘相加
+// 阶乘相加
 public class Test_1013 {
     // tag::code[]
     public static void main(String[] args) {

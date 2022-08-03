@@ -5,8 +5,8 @@ import java.text.DecimalFormat;
 import java.util.Scanner;
 // tag::code[]
 /**
- * 求方程的根，用三个函数分别求当b^2-4ac大于0、等于0、和小于0时的根，并输出结果。
- * 从主函数输入a、b、c的值
+ * 求方程的根，用三个函数分别求当 b^2-4ac 大于 0、等于 0、和小于 0 时的根，并输出结果。
+ * 从主函数输入 a、b、c 的值
  */
 public class EquationResult {
     public static void main(String[] args) {

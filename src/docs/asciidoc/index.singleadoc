@@ -21,7 +21,7 @@ include::structure.adoc[leveloffset=+1]
 
 include::sort.adoc[leveloffset=+1]
 
-//include::simple.adoc[leveloffset=+1]
+include::simple.adoc[leveloffset=+1]
 
 //include::recursive.adoc[leveloffset=+1]
 

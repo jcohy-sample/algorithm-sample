@@ -11,9 +11,6 @@ import java.util.Comparator;
  */
 public class GetMin {
 
-    /**
-     * @param args
-     */
     public static void main(String[] args) {
         int[] arr = new int[]{851, 581, 518, 158, 815, 185};
         System.out.println(minNumFromIntArray(arr));

@@ -4,6 +4,7 @@ import java.util.Scanner;
 // tag::code[]
 /**
  * 公约数个数
+ * 公约数，亦称"公因数"。它是指能同时整除几个整数的数。如果一个整数同时是几个整数的约数，称这个整数为它们的"公约数"；公约数中最大的称为最大公约数。
  */
 public class Test_1084 {
     public static void main(String[] args) {
@@ -33,5 +34,15 @@ public class Test_1084 {
         }
         return count;
     }
+    /**
+     * 输入：
+     * 3
+     * 9
+     * 5
+     * 4
+     * 输出：
+     * 2
+     * 1
+     */
 }
 // end::code[]

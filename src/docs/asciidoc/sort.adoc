@@ -84,7 +84,7 @@ include::{java-code}/sort/BubbleSort.java[tag=code]
 .Go
 [source,go,indent=0,subs="verbatim,quotes",role="secondary"]
 ----
-include::{go-code}/sort/bubblesort/main.go[]
+include::{go-code}/sort/bubblesort/BubbleSort1.go[]
 ----
 
 优化后代码

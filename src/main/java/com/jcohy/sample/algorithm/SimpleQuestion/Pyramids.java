@@ -2,11 +2,12 @@ package com.jcohy.sample.algorithm.SimpleQuestion;
 
 import java.util.Scanner;
 
-
+// tag::code[]
 public class Pyramids {
-    // tag::code[]
+
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
+        System.out.println("请输入金字塔层数：");
         int a = in.nextInt();
 
         {
@@ -23,5 +24,15 @@ public class Pyramids {
             }
         }
     }
-    // end::code[]
+    /**
+     * 请输入金字塔层数：6
+     * 输出：
+     *      *
+     *     ***
+     *    *****
+     *   *******
+     *  *********
+     * ***********
+     */
 }
+// end::code[]

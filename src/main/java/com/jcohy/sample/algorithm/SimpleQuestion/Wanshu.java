@@ -1,13 +1,11 @@
 package com.jcohy.sample.algorithm.SimpleQuestion;
 
-public class Wanshu {
 // tag::code[]
-    /**
-     * 题目: 一个数如果恰好等于它的因子之和，这个数就称为
-     * "完数 "。例如6=1＋2＋3.编程 找出1000以内的所有完数。
-     *
-     * @param args
-     */
+/**
+ * 题目: 一个数如果恰好等于它的因子之和，这个数就称为
+ * "完数 "。例如 6=1＋2＋3.编程 找出 1000 以内的所有完数。
+ */
+public class Wanshu {
     public static void main(String[] args) {
         int sum;
         for (int i = 1; i < 1000; i++) {
@@ -23,5 +21,11 @@ public class Wanshu {
         }
         System.out.println();
     }
-// end::code[]
+    /**
+     * 输出：
+     * 6
+     * 28
+     * 496
+     */
 }
+// end::code[]

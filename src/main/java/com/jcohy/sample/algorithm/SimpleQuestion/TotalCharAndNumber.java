@@ -2,9 +2,10 @@ package com.jcohy.sample.algorithm.SimpleQuestion;
 
 import java.util.Scanner;
 
+// tag::code[]
 //统计字母。数字。空格，其他个数
 public class TotalCharAndNumber {
-    // tag::code[]
+
     public static void main(String[] args) {
         int number = 0;
         int charcount = 0;
@@ -29,7 +30,7 @@ public class TotalCharAndNumber {
         System.out.println("空格个数: " + blank);
         System.out.println("其他字符个数: " + other);
     }
-    // end::code[]
-}  
+}
+// end::code[]
 
 

@@ -1,20 +1,12 @@
 [[algorithm-simple]]
 = 简单问题
 
-== n的阶乘
-
-[source,java,indent=0,subs="verbatim,quotes",role="primary"]
-.Java
-----
-include::{algorithm-code}/SimpleQuestion/Test_1013.java[tag=code]
-----
-
 == 倒三角
 
 [source,java,indent=0,subs="verbatim,quotes",role="primary"]
 .Java
 ----
-include::{algorithm-code}/SimpleQuestion/test3.java[tag=code]
+include::{java-code}/SimpleQuestion/test3.java[tag=code]
 ----
 
 == 三元矩阵对角线之和
@@ -22,7 +14,7 @@ include::{algorithm-code}/SimpleQuestion/test3.java[tag=code]
 [source,java,indent=0,subs="verbatim,quotes",role="primary"]
 .Java
 ----
-include::{algorithm-code}/SimpleQuestion/Test_1023.java[tag=code]
+include::{java-code}/SimpleQuestion/Test_1023.java[tag=code]
 ----
 
 == 三角形面积
@@ -30,7 +22,7 @@ include::{algorithm-code}/SimpleQuestion/Test_1023.java[tag=code]
 [source,java,indent=0,subs="verbatim,quotes",role="primary"]
 .Java
 ----
-include::{algorithm-code}/SimpleQuestion/Test_1037.java[tag=code]
+include::{java-code}/SimpleQuestion/Test_1037.java[tag=code]
 ----
 
 == 公约数个数
@@ -38,7 +30,7 @@ include::{algorithm-code}/SimpleQuestion/Test_1037.java[tag=code]
 [source,java,indent=0,subs="verbatim,quotes",role="primary"]
 .Java
 ----
-include::{algorithm-code}/SimpleQuestion/Test_1084.java[tag=code]
+include::{java-code}/SimpleQuestion/Test_1084.java[tag=code]
 ----
 
 == 判断素数
@@ -46,15 +38,15 @@ include::{algorithm-code}/SimpleQuestion/Test_1084.java[tag=code]
 [source,java,indent=0,subs="verbatim,quotes",role="primary"]
 .Java
 ----
-include::{algorithm-code}/SimpleQuestion/Test_1028.java[tag=code]
+include::{java-code}/SimpleQuestion/Test_1028.java[tag=code]
 ----
 
-== 学生分数
+== 筛法求之 N 内的素数
 
 [source,java,indent=0,subs="verbatim,quotes",role="primary"]
 .Java
 ----
-include::{algorithm-code}/SimpleQuestion/Test_1050.java[tag=code]
+include::{java-code}/SimpleQuestion/Test_1021.java[tag=code]
 ----
 
 == 打印水仙花数
@@ -62,15 +54,15 @@ include::{algorithm-code}/SimpleQuestion/Test_1050.java[tag=code]
 [source,java,indent=0,subs="verbatim,quotes",role="primary"]
 .Java
 ----
-include::{algorithm-code}/SimpleQuestion/Test_1015.java[tag=code]
+include::{java-code}/SimpleQuestion/Test_1015.java[tag=code]
 ----
 
-== 摄氏温度
+== 华氏温度转摄氏温度
 
 [source,java,indent=0,subs="verbatim,quotes",role="primary"]
 .Java
 ----
-include::{algorithm-code}/SimpleQuestion/Test_1004.java[tag=code]
+include::{java-code}/SimpleQuestion/Test_1004.java[tag=code]
 ----
 
 == 数组插入
@@ -78,7 +70,7 @@ include::{algorithm-code}/SimpleQuestion/Test_1004.java[tag=code]
 [source,java,indent=0,subs="verbatim,quotes",role="primary"]
 .Java
 ----
-include::{algorithm-code}/SimpleQuestion/Test_1024.java[tag=code]
+include::{java-code}/SimpleQuestion/Test_1024.java[tag=code]
 ----
 
 == 打印金字塔
@@ -86,7 +78,7 @@ include::{algorithm-code}/SimpleQuestion/Test_1024.java[tag=code]
 [source,java,indent=0,subs="verbatim,quotes",role="primary"]
 .Java
 ----
-include::{algorithm-code}/SimpleQuestion/Pyramids.java[tag=code]
+include::{java-code}/SimpleQuestion/Pyramids.java[tag=code]
 ----
 
 == 报数退出
@@ -94,23 +86,15 @@ include::{algorithm-code}/SimpleQuestion/Pyramids.java[tag=code]
 [source,java,indent=0,subs="verbatim,quotes",role="primary"]
 .Java
 ----
-include::{algorithm-code}/SimpleQuestion/Test_1046.java[tag=code]
+include::{java-code}/SimpleQuestion/Test_1046.java[tag=code]
 ----
 
-== 最小最大数兑换
-
-[source,java,indent=0,subs="verbatim,quotes",role="primary"]
-.Java
-----
-include::{algorithm-code}/SimpleQuestion/Test_1044.java[tag=code]
-----
-
-== 求和
+== 缩略求和
 
 [source,java,indent=0,subs="verbatim,quotes",role="primary"]
 .Java
 ----
-include::{algorithm-code}/SimpleQuestion/Test_1014.java[tag=code]
+include::{java-code}/SimpleQuestion/Test_1014.java[tag=code]
 ----
 
 == 猴子吃桃
@@ -118,7 +102,7 @@ include::{algorithm-code}/SimpleQuestion/Test_1014.java[tag=code]
 [source,java,indent=0,subs="verbatim,quotes",role="primary"]
 .Java
 ----
-include::{algorithm-code}/SimpleQuestion/Test_1019.java[tag=code]
+include::{java-code}/SimpleQuestion/Test_1019.java[tag=code]
 ----
 
 == 球的自由落体
@@ -126,15 +110,7 @@ include::{algorithm-code}/SimpleQuestion/Test_1019.java[tag=code]
 [source,java,indent=0,subs="verbatim,quotes",role="primary"]
 .Java
 ----
-include::{algorithm-code}/SimpleQuestion/Global.java[tag=code]
-----
-
-== 筛法求之N内的素数
-
-[source,java,indent=0,subs="verbatim,quotes",role="primary"]
-.Java
-----
-include::{algorithm-code}/SimpleQuestion/Test_1021.java[tag=code]
+include::{java-code}/SimpleQuestion/Global.java[tag=code]
 ----
 
 == 简单数字操作
@@ -142,7 +118,7 @@ include::{algorithm-code}/SimpleQuestion/Test_1021.java[tag=code]
 [source,java,indent=0,subs="verbatim,quotes",role="primary"]
 .Java
 ----
-include::{algorithm-code}/SimpleQuestion/Test_1008.java[tag=code]
+include::{java-code}/SimpleQuestion/Test_1008.java[tag=code]
 ----
 
 == 输出完数
@@ -150,15 +126,7 @@ include::{algorithm-code}/SimpleQuestion/Test_1008.java[tag=code]
 [source,java,indent=0,subs="verbatim,quotes",role="primary"]
 .Java
 ----
-include::{algorithm-code}/SimpleQuestion/Wanshu.java[tag=code]
-----
-
-== 逆序输出
-
-[source,java,indent=0,subs="verbatim,quotes",role="primary"]
-.Java
-----
-include::{algorithm-code}/SimpleQuestion/Test_1025.java[tag=code]
+include::{java-code}/SimpleQuestion/Wanshu.java[tag=code]
 ----
 
 == 阶乘相加
@@ -166,7 +134,7 @@ include::{algorithm-code}/SimpleQuestion/Test_1025.java[tag=code]
 [source,java,indent=0,subs="verbatim,quotes",role="primary"]
 .Java
 ----
-include::{algorithm-code}/SimpleQuestion/Test_1013.java[tag=code]
+include::{java-code}/SimpleQuestion/Test_1013.java[tag=code]
 ----
 
 == 字符统计
@@ -174,7 +142,7 @@ include::{algorithm-code}/SimpleQuestion/Test_1013.java[tag=code]
 [source,java,indent=0,subs="verbatim,quotes",role="primary"]
 .Java
 ----
-include::{algorithm-code}/SimpleQuestion/TotalCharAndNumber.java[tag=code]
+include::{java-code}/SimpleQuestion/TotalCharAndNumber.java[tag=code]
 ----
 
 == 最大公约数和最小公倍数
@@ -182,7 +150,7 @@ include::{algorithm-code}/SimpleQuestion/TotalCharAndNumber.java[tag=code]
 [source,java,indent=0,subs="verbatim,quotes",role="primary"]
 .Java
 ----
-include::{algorithm-code}/SimpleQuestion/CommonDivisor.java[tag=code]
+include::{java-code}/SimpleQuestion/CommonDivisor.java[tag=code]
 ----
 
 == 正整数分解质因数
@@ -190,7 +158,7 @@ include::{algorithm-code}/SimpleQuestion/CommonDivisor.java[tag=code]
 [source,java,indent=0,subs="verbatim,quotes",role="primary"]
 .Java
 ----
-include::{algorithm-code}/SimpleQuestion/Factorizations.java[tag=code]
+include::{java-code}/SimpleQuestion/Factorizations.java[tag=code]
 ----
 
 == 数字组合
@@ -198,15 +166,7 @@ include::{algorithm-code}/SimpleQuestion/Factorizations.java[tag=code]
 [source,java,indent=0,subs="verbatim,quotes",role="primary"]
 .Java
 ----
-include::{algorithm-code}/SimpleQuestion/shuzi.java[tag=code]
-----
-
-== 指定位置复制
-
-[source,java,indent=0,subs="verbatim,quotes",role="primary"]
-.Java
-----
-include::{algorithm-code}/SimpleQuestion/CopyArrayByPosition.java[tag=code]
+include::{java-code}/SimpleQuestion/shuzi.java[tag=code]
 ----
 
 == 求方程的根
@@ -214,7 +174,7 @@ include::{algorithm-code}/SimpleQuestion/CopyArrayByPosition.java[tag=code]
 [source,java,indent=0,subs="verbatim,quotes",role="primary"]
 .Java
 ----
-include::{algorithm-code}/SimpleQuestion/EquationResult.java[tag=code]
+include::{java-code}/SimpleQuestion/EquationResult.java[tag=code]
 ----
 
 == 杨辉三角
@@ -222,5 +182,37 @@ include::{algorithm-code}/SimpleQuestion/EquationResult.java[tag=code]
 [source,java,indent=0,subs="verbatim,quotes",role="primary"]
 .Java
 ----
-include::{algorithm-code}/SimpleQuestion/Yanghui.java[tag=code]
+include::{java-code}/SimpleQuestion/Yanghui.java[tag=code]
+----
+
+== 大数的加减
+
+[source,java,indent=0,subs="verbatim,quotes",role="primary"]
+.Java
+----
+include::{java-code}/SimpleQuestion/BigData.java[tag=code]
+----
+
+== 兔子问题（斐波那契数列）
+
+[source,java,indent=0,subs="verbatim,quotes",role="primary"]
+.Java
+----
+include::{java-code}/SimpleQuestion/Fibhabit.java[tag=code]
+----
+
+== 获取最小数
+
+[source,java,indent=0,subs="verbatim,quotes",role="primary"]
+.Java
+----
+include::{java-code}/SimpleQuestion/GetMin.java[tag=code]
+----
+
+== 猜拳游戏
+
+[source,java,indent=0,subs="verbatim,quotes",role="primary"]
+.Java
+----
+include::{java-code}/SimpleQuestion/Guess.java[tag=code]
 ----

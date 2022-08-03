@@ -5,7 +5,7 @@ import java.util.List;
 import java.util.Scanner;
 // tag::code[]
 /**
- * 筛法求之N内的素数
+ * 筛法求之 N 内的素数
  */
 public class Test_1021 {
 
@@ -22,6 +22,10 @@ public class Test_1021 {
         for (int i = 0; i < list.size(); i++) {
             System.out.print(list.get(i) + " ");
         }
+        /**
+         * 输入：6
+         * 输出：2 3 5
+         */
     }
 
     private static boolean isPrime(int num) {
@@ -36,6 +40,5 @@ public class Test_1021 {
 
         return true;
     }
-
 }
 // end::code[]

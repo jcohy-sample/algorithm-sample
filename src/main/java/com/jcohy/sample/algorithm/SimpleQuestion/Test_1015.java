@@ -2,8 +2,8 @@ package com.jcohy.sample.algorithm.SimpleQuestion;
 
 import java.util.Scanner;
 
+// tag::code[]
 public class Test_1015 {
-    // tag::code[]
     //所谓 "水仙花数 "是指一个三位数，其各位数字立方和等于该数本身
     public static void main(String[] args) {
         int b1, b2, b3, n;
@@ -18,5 +18,13 @@ public class Test_1015 {
             }
         }
     }
-    // end::code[]
+    /**
+     * 输入：1000
+     * 输出：
+     * 153
+     * 370
+     * 371
+     * 407
+     */
 }
+// end::code[]

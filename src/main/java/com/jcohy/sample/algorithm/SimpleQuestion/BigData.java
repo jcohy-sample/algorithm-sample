@@ -1,10 +1,9 @@
 package com.jcohy.sample.algorithm.SimpleQuestion;
 
+// tag::code[]
 /**
- * @author jcohy
  * 大数的加减
  */
-// tag::code[]
 public class BigData {
     public static void main(String[] args) {
         int[] result = bigNumSum("999999999999999", "99999999999999999");
@@ -27,9 +26,9 @@ public class BigData {
 
             for (int i = ch1.length - 1; i >= 0; i--) { //从个位开始相加
                 if (flag) {
-                    sum[i + 1] = (int) (ch1[i] - '0') + (int) (ch2[i] - '0') + 1;
+                    sum[i + 1] = (ch1[i] - '0') + (int) (ch2[i] - '0') + 1;
                 } else {
-                    sum[i + 1] = (int) (ch1[i] - '0') + (int) (ch2[i] - '0');
+                    sum[i + 1] = (ch1[i] - '0') + (int) (ch2[i] - '0');
                 }
                 flag = handleSumOverTen(sum, i, len); //处理两数相加是否>10
             }
@@ -41,19 +40,19 @@ public class BigData {
 
             for (int i = ch2.length - 1; i >= 0; i--) {
                 if (flag) {
-                    sum[i + len + 1] = (int) (ch1[i + len] - '0') + (int) (ch2[i] - '0') + 1;
+                    sum[i + len + 1] = (ch1[i + len] - '0') + (int) (ch2[i] - '0') + 1;
                 } else {
-                    sum[i + len + 1] = (int) (ch1[i + len] - '0') + (int) (ch2[i] - '0');
+                    sum[i + len + 1] = (ch1[i + len] - '0') + (int) (ch2[i] - '0');
                 }
 
                 flag = handleSumOverTen(sum, i, len);
             }
-
-            for (int i = ch1.length - ch2.length - 1; i >= 0; i--) { //处理数1多出来的位数
+            //处理数 1 多出来的位数
+            for (int i = ch1.length - ch2.length - 1; i >= 0; i--) {
                 if (flag) {
-                    sum[i + 1] = (int) (ch1[i] - '0') + 1;
+                    sum[i + 1] = (ch1[i] - '0') + 1;
                 } else {
-                    sum[i + 1] = (int) (ch1[i] - '0');
+                    sum[i + 1] = ch1[i] - '0';
                 }
                 flag = handleSumOverTen(sum, i, 0);
             }
@@ -65,9 +64,9 @@ public class BigData {
 
             for (int i = ch1.length - 1; i >= 0; i--) {
                 if (flag) {
-                    sum[i + len + 1] = (int) (ch1[i] - '0') + (int) (ch2[i + len] - '0') + 1;
+                    sum[i + len + 1] = (ch1[i] - '0') + (int) (ch2[i + len] - '0') + 1;
                 } else {
-                    sum[i + len + 1] = (int) (ch1[i] - '0') + (int) (ch2[i + len] - '0');
+                    sum[i + len + 1] = (ch1[i] - '0') + (int) (ch2[i + len] - '0');
                 }
 
                 flag = handleSumOverTen(sum, i, len);
@@ -75,9 +74,9 @@ public class BigData {
 
             for (int i = ch2.length - ch1.length - 1; i >= 0; i--) {
                 if (flag) {
-                    sum[i + 1] = (int) (ch2[i] - '0') + 1;
+                    sum[i + 1] = (ch2[i] - '0') + 1;
                 } else {
-                    sum[i + 1] = (int) (ch2[i] - '0');
+                    sum[i + 1] = ch2[i] - '0';
                 }
                 flag = handleSumOverTen(sum, i, 0);
             }
@@ -111,5 +110,8 @@ public class BigData {
             sum[0] = 0;
         }
     }
+    /**
+     * 输出：100999999999999998
+     */
 }
 // end::code[]

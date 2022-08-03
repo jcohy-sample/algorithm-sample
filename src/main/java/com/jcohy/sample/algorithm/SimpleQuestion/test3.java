@@ -5,9 +5,9 @@ package com.jcohy.sample.algorithm.SimpleQuestion;
  * ClassName  : com.study.demo
  * Description  :
  */
-
+// tag::code[]
 public class test3 {
-    // tag::code[]
+
     public static void main(String[] args) {
         reversePrintStar(4);
     }
@@ -28,5 +28,12 @@ public class test3 {
 
         }
     }
-    // end::code[]
+    /**
+     * 输出
+     * * * * *
+     *  * * *
+     *   * *
+     *    *
+     */
 }
+// end::code[]

@@ -4,6 +4,7 @@ import java.util.Scanner;
 // tag::code[]
 /**
  * 判断素数
+ * 素数是指质数，一个大于1的自然数，除了1 和它自身外，不能整除其他自然数的数叫做质数；否则称为合数。
  */
 public class Test_1028 {
     public static void main(String[] args) {
@@ -32,5 +33,9 @@ public class Test_1028 {
         return true;
 
     }
+    /**
+     * 输入：5
+     * 输出：prime
+     */
 }
 // end::code[]
