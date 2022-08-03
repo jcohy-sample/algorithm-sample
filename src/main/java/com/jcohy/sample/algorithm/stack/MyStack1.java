@@ -14,11 +14,11 @@ public class MyStack1 {
 
     /**
      * 数据压入规则
-     * 当前数据为newNum,先将其压入stackData，然后判断stackMin是否为空
-     * 如果为空，则newNum也压入stackMin.
-     * 如果不为空，则比较newNum和stackMin的栈顶元素哪一个更小
-     * 如果newNum小于等于。则newNum也压入stackMin
-     * 如果stackMin中栈顶元素小，则stackMin中不压入任何元素
+     * 当前数据为 newNum,先将其压入 stackData，然后判断 stackMin 是否为空
+     * 如果为空，则 newNum 也压入 stackMin.
+     * 如果不为空，则比较 newNum 和 stackMin 的栈顶元素哪一个更小
+     * 如果 newNum 小于等于。则 newNum 也压入 stackMin
+     * 如果 stackMin 中栈顶元素小，则 stackMin 中不压入任何元素
      */
     public void push(int newNum) {
         if (this.stackMin.isEmpty()) {
@@ -61,6 +61,8 @@ public class MyStack1 {
         ms.push(1);
         ms.push(8);
         ms.push(3);
+        System.out.println(ms.stackData.toString());
+        System.out.println(ms.stackMin.toString());
         System.out.println(ms.getMin());
     }
 }

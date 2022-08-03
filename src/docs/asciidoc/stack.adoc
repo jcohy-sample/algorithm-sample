@@ -2,20 +2,36 @@
 = 栈
 include::attributes.adoc[]
 
+== 汉诺塔问题
+
+[source,java,indent=0,subs="verbatim,quotes",role="primary"]
+.Java
+----
+include::{java-code}/stack/HanoGenernal.java[tag=code]
+----
+
+== 使用栈来模拟
+
+[source,java,indent=0,subs="verbatim,quotes",role="primary"]
+.Java
+----
+include::{java-code}/stack/Hano1.java[tag=code]
+----
+
+== 汉诺塔问题升级
+
+[source,java,indent=0,subs="verbatim,quotes",role="primary"]
+.Java
+----
+include::{java-code}/stack/Hano.java[tag=code]
+----
+
 == 用数组模拟一个栈
 
 [source,go,indent=0,subs="verbatim,quotes",role="primary"]
 .Go
 ----
 include::{go-code}/stack/main.go[tag=code]
-----
-
-== 汉诺塔问题
-
-[source,java,indent=0,subs="verbatim,quotes",role="primary"]
-.Java
-----
-include::{java-code}/stack/Hano1.java[tag=code]
 ----
 
 == 用两个栈实现一个队列

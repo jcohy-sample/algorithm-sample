@@ -23,13 +23,11 @@ include::structure.adoc[leveloffset=+1]
 
 include::sort.adoc[leveloffset=+1]
 
-//include::recursive.adoc[leveloffset=+1]
-
 //include::array.adoc[leveloffset=+1]
 
 //include::list.adoc[leveloffset=+1]
 
-//include::stack.adoc[leveloffset=+1]
+include::stack.adoc[leveloffset=+1]
 
 //include::queue.adoc[leveloffset=+1]
 
