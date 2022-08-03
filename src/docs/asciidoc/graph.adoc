@@ -1,10 +1,11 @@
 [[algorithm-graph]]
 = 图
+include::attributes.adoc[]
 
 == 迷宫问题
 
 [source,java,indent=0,subs="verbatim,quotes",role="primary"]
 .Java
 ----
-include::{algorithm-code}/graph/TravresingGraph.java[tag=code]
+include::{java-code}/graph/TravresingGraph.java[tag=code]
 ----

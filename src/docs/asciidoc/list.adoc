@@ -1,12 +1,13 @@
 [[algorithm-list]]
 = 链表
+include::attributes.adoc[]
 
 == 最大滑动窗口
 
 [source,java,indent=0,subs="verbatim,quotes",role="primary"]
 .Java
 ----
-include::{algorithm-code}/list/MaxWindow.java[tag=code]
+include::{java-code}/list/MaxWindow.java[tag=code]
 ----
 
 == 水浒英雄排行榜
@@ -18,7 +19,7 @@ include::{algorithm-code}/list/MaxWindow.java[tag=code]
 [source,go,indent=0,subs="verbatim,quotes",role="primary"]
 .Go
 ----
-include::{go-code}/chapter20/singlelink/main.go[tag=code]
+include::{go-code}/singlelink/main.go[tag=code]
 ----
 
 == 使用双链表实现上例
@@ -33,7 +34,7 @@ include::{go-code}/chapter20/singlelink/main.go[tag=code]
 [source,go,indent=0,subs="verbatim,quotes",role="primary"]
 .Go
 ----
-include::{go-code}/chapter20/doublelink/main.go[tag=code]
+include::{go-code}/doublelink/main.go[tag=code]
 ----
 
 == 环形列表
@@ -41,7 +42,7 @@ include::{go-code}/chapter20/doublelink/main.go[tag=code]
 [source,go,indent=0,subs="verbatim,quotes",role="primary"]
 .Go
 ----
-include::{go-code}/chapter20/circlesinglelink/main.go[tag=code]
+include::{go-code}/circlesinglelink/main.go[tag=code]
 ----
 
 == 约瑟夫问题(Josephu)
@@ -54,7 +55,7 @@ include::{go-code}/chapter20/circlesinglelink/main.go[tag=code]
 [source,go,indent=0,subs="verbatim,quotes",role="primary"]
 .Go
 ----
-include::{go-code}/chapter20/Josephu/main.go[tag=code]
+include::{go-code}/Josephu/main.go[tag=code]
 ----
 
 == 使用链表实现哈希表
@@ -64,6 +65,6 @@ include::{go-code}/chapter20/Josephu/main.go[tag=code]
 [source,go,indent=0,subs="verbatim,quotes",role="primary"]
 .Go
 ----
-include::{go-code}/chapter20/hashtable/main.go[tag=code]
+include::{go-code}/hashtable/main.go[tag=code]
 ----
 

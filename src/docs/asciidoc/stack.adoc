@@ -1,12 +1,13 @@
 [[algorithm-stack]]
 = 栈
+include::attributes.adoc[]
 
 == 用数组模拟一个栈
 
 [source,go,indent=0,subs="verbatim,quotes",role="primary"]
 .Go
 ----
-include::{go-code}/chapter20/stack/main.go[tag=code]
+include::{go-code}/stack/main.go[tag=code]
 ----
 
 == 汉诺塔问题
@@ -14,7 +15,7 @@ include::{go-code}/chapter20/stack/main.go[tag=code]
 [source,java,indent=0,subs="verbatim,quotes",role="primary"]
 .Java
 ----
-include::{algorithm-code}/stack/Hano1.java[tag=code]
+include::{java-code}/stack/Hano1.java[tag=code]
 ----
 
 == 用两个栈实现一个队列
@@ -22,7 +23,7 @@ include::{algorithm-code}/stack/Hano1.java[tag=code]
 [source,java,indent=0,subs="verbatim,quotes",role="primary"]
 .Java
 ----
-include::{algorithm-code}/stack/TwoStackQueue.java[tag=code]
+include::{java-code}/stack/TwoStackQueue.java[tag=code]
 ----
 
 == 用一个栈实现另一个栈的排序
@@ -30,7 +31,7 @@ include::{algorithm-code}/stack/TwoStackQueue.java[tag=code]
 [source,java,indent=0,subs="verbatim,quotes",role="primary"]
 .Java
 ----
-include::{algorithm-code}/stack/SortStackByStack.java[tag=code]
+include::{java-code}/stack/SortStackByStack.java[tag=code]
 ----
 
 == 利用递归函数实现一个栈的反转
@@ -38,7 +39,7 @@ include::{algorithm-code}/stack/SortStackByStack.java[tag=code]
 [source,java,indent=0,subs="verbatim,quotes",role="primary"]
 .Java
 ----
-include::{algorithm-code}/stack/ReverseStack.java[tag=code]
+include::{java-code}/stack/ReverseStack.java[tag=code]
 ----
 
 == 栈实现综合计算器
@@ -46,7 +47,7 @@ include::{algorithm-code}/stack/ReverseStack.java[tag=code]
 [source,go,indent=0,subs="verbatim,quotes",role="primary"]
 .Go
 ----
-include::{go-code}/chapter20/expStack/main.go[tag=code]
+include::{go-code}/expStack/main.go[tag=code]
 ----
 
 == 实现获取最小数
@@ -54,5 +55,5 @@ include::{go-code}/chapter20/expStack/main.go[tag=code]
 [source,java,indent=0,subs="verbatim,quotes",role="primary"]
 .Java
 ----
-include::{algorithm-code}/stack/MyStack1.java[tag=code]
+include::{java-code}/stack/MyStack1.java[tag=code]
 ----

@@ -1,12 +1,13 @@
 [[algorithm-recursive]]
 = 递归
+include::attributes.adoc[]
 
 == 汉诺塔问题
 
 [source,java,indent=0,subs="verbatim,quotes",role="primary"]
 .Java
 ----
-include::{algorithm-code}/stack/HanoGenernal.java[tag=code]
+include::{java-code}/stack/HanoGenernal.java[tag=code]
 ----
 
 == 汉诺塔问题升级
@@ -14,7 +15,7 @@ include::{algorithm-code}/stack/HanoGenernal.java[tag=code]
 [source,java,indent=0,subs="verbatim,quotes",role="primary"]
 .Java
 ----
-include::{algorithm-code}/stack/Hano.java[tag=code]
+include::{java-code}/stack/Hano.java[tag=code]
 ----
 
 == 兔子问题
@@ -22,5 +23,5 @@ include::{algorithm-code}/stack/Hano.java[tag=code]
 [source,java,indent=0,subs="verbatim,quotes",role="primary"]
 .Java
 ----
-include::{algorithm-code}/SimpleQuestion/Fibhabit.java[tag=code]
+include::{java-code}/SimpleQuestion/Fibhabit.java[tag=code]
 ----

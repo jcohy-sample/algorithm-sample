@@ -1,5 +1,6 @@
 [[algorithm-sort]]
 = 排序算法
+include::attributes.adoc[]
 
 [[algorithm-sort-overview]]
 == 相关概念

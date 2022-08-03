@@ -15,4 +15,10 @@ https://www.jcohy.com[*https://www.jcohy.com/projects*]
 数据结构是一门研究算法的学科
 
 程序 = 数据结构 + 算法
-[horizontal]
+
+[[horizontal]]
+<<simple.adoc#algorithm-simple,简单问题>>： 数据结构
+
+<<structure.adoc#algorithm-structure,数据结构>>： 数据结构
+
+<<sort.adoc#algorithm-sort,各种排序算法>>： 各种排序算法

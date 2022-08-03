@@ -17,11 +17,11 @@ https://docs.jcohy.com[*https://docs.jcohy.com*]
 
 程序 = 数据结构 + 算法
 
+include::simple.adoc[leveloffset=+1]
+
 include::structure.adoc[leveloffset=+1]
 
 include::sort.adoc[leveloffset=+1]
-
-include::simple.adoc[leveloffset=+1]
 
 //include::recursive.adoc[leveloffset=+1]
 

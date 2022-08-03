@@ -1,37 +1,38 @@
 [[algorithm-queue]]
 = 队列
+include::attributes.adoc[]
 
 == 猫狗队列
 
 [source,java,indent=0,subs="verbatim,quotes",role="primary"]
 .DogAndCatQueueTest
 ----
-include::{algorithm-code}/queue/DogAndCatQueueTest.java[tag=code]
+include::{java-code}/queue/DogAndCatQueueTest.java[tag=code]
 ----
 .Pet
 [source,kotlin,indent=0,subs="verbatim,quotes",role="secondary"]
 ----
-include::{algorithm-code}/queue/Pet.java[tag=code]
+include::{java-code}/queue/Pet.java[tag=code]
 ----
 .Dog
 [source,kotlin,indent=0,subs="verbatim,quotes",role="secondary"]
 ----
-include::{algorithm-code}/queue/Dog.java[tag=code]
+include::{java-code}/queue/Dog.java[tag=code]
 ----
 .Cat
 [source,kotlin,indent=0,subs="verbatim,quotes",role="secondary"]
 ----
-include::{algorithm-code}/queue/Cat.java[tag=code]
+include::{java-code}/queue/Cat.java[tag=code]
 ----
 .DogCatQueue
 [source,kotlin,indent=0,subs="verbatim,quotes",role="secondary"]
 ----
-include::{algorithm-code}/queue/DogCatQueue.java[tag=code]
+include::{java-code}/queue/DogCatQueue.java[tag=code]
 ----
 .PetEnterQueue
 [source,kotlin,indent=0,subs="verbatim,quotes",role="secondary"]
 ----
-include::{algorithm-code}/queue/PetEnterQueue.java[tag=code]
+include::{java-code}/queue/PetEnterQueue.java[tag=code]
 ----
 
 == 以数组方式实现队列
@@ -39,12 +40,12 @@ include::{algorithm-code}/queue/PetEnterQueue.java[tag=code]
 [source,java,indent=0,subs="verbatim,quotes",role="primary"]
 .Java
 ----
-include::{algorithm-code}/queue/QueueArray.java[tag=code]
+include::{java-code}/queue/QueueArray.java[tag=code]
 ----
 .Go
 [source,go,indent=0,subs="verbatim,quotes",role="secondary"]
 ----
-include::{go-code}/chapter20/singlequeue/main.go[tag=code]
+include::{go-code}/singlequeue/main.go[tag=code]
 ----
 
 == 以链表方式实现队列
@@ -52,7 +53,7 @@ include::{go-code}/chapter20/singlequeue/main.go[tag=code]
 [source,java,indent=0,subs="verbatim,quotes",role="primary"]
 .Java
 ----
-include::{algorithm-code}/queue/QueueList.java[tag=code]
+include::{java-code}/queue/QueueList.java[tag=code]
 ----
 
 == 以数组方式实现环形队列
@@ -60,5 +61,5 @@ include::{algorithm-code}/queue/QueueList.java[tag=code]
 [source,go,indent=0,subs="verbatim,quotes",role="primary"]
 .Go
 ----
-include::{go-code}/chapter20/circelqueue/main.go[tag=code]
+include::{go-code}/circelqueue/main.go[tag=code]
 ----

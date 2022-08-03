@@ -1,5 +1,6 @@
 [[algorithm-structure]]
 = 树
+include::attributes.adoc[]
 
 [[algorithm-brt-tree]]
 == RBT 红黑树
