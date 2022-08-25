@@ -22,3 +22,13 @@ https://www.jcohy.com[*https://www.jcohy.com/projects*]
 <<structure.adoc#algorithm-structure,数据结构>>： 数据结构
 
 <<sort.adoc#algorithm-sort,各种排序算法>>： 各种排序算法
+
+<<array.adoc#algorithm-array,数组>>： 数组
+
+<<list.adoc#algorithm-list,集合>>： 集合
+
+<<stack.adoc#algorithm-stack,栈>>： 栈
+
+<<queue.adoc#algorithm-queue,队列>>： 队列
+
+<<graph.adoc#algorithm-graph,图>>： 各种排序算法
