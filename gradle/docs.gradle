@@ -1,3 +1,5 @@
+import org.asciidoctor.gradle.jvm.AsciidoctorTask
+
 apply plugin: "com.jcohy.docs"
 apply plugin: "com.jcohy.oss-upload"
 
@@ -10,7 +12,7 @@ asciidoctor {
 	}
 }
 
-task asciidoctorMultipage(type: org.asciidoctor.gradle.jvm.AsciidoctorTask) {
+task asciidoctorMultipage(type: AsciidoctorTask) {
 	sources {
 		include "*.adoc"
 	}
