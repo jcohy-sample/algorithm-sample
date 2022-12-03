@@ -30,7 +30,7 @@ jobs:
         run: ./gradlew clean aggregatedAsciidoctor -Dfile.encoding=UTF-8  -x asciidoctorPdf
       - name: 上传到 OSS
         if: ${{ github.event.inputs.uploadOss == 'true'}}
-        run: ./gradlew uploadOssFiles
+        run: ./gradlew uploadOssFiles -Dfile.encoding=UTF-8  -x asciidoctorPdf
         env:
           ACCESS_KEY: ${{ secrets.ACCESS_KEY }}
           SECRET_KEY: ${{ secrets.SECRET_KEY }}
