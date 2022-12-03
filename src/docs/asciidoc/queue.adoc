@@ -1,6 +1,5 @@
 [[algorithm-queue]]
 = 队列
-include::attributes.adoc[]
 
 == 猫狗队列
 

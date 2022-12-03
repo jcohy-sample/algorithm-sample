@@ -1,6 +1,5 @@
 [[algorithm-graph]]
 = 图
-include::attributes.adoc[]
 
 == 迷宫问题
 

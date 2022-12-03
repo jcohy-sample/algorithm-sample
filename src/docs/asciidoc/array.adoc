@@ -1,6 +1,5 @@
 [[algorithm-array]]
 = 数组
-include::attributes.adoc[]
 
 == 数组模拟队列
 

@@ -1,6 +1,5 @@
 [[algorithm-list]]
 = 链表
-include::attributes.adoc[]
 
 == 最大滑动窗口
 

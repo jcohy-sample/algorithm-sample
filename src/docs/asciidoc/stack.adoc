@@ -1,6 +1,5 @@
 [[algorithm-stack]]
 = 栈
-include::attributes.adoc[]
 
 == 汉诺塔问题
 

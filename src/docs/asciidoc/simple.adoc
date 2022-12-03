@@ -1,6 +1,5 @@
 [[algorithm-simple]]
 = 简单问题
-include::attributes.adoc[]
 
 == 倒三角
 

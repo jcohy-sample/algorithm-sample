@@ -1,6 +1,5 @@
 [[algorithm-other]]
 = 其他
-include::attributes.adoc[]
 
 == 大数的加减
 
