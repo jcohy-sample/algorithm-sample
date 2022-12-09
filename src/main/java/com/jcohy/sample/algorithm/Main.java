@@ -1,4 +1,4 @@
-package org.jcohy.sample.algorithm;
+package com.jcohy.sample.algorithm;
 
 /**
  * 描述: .
