@@ -1,5 +1,3 @@
-import org.asciidoctor.gradle.jvm.AsciidoctorTask
-
 apply plugin: "com.jcohy.docs"
 apply plugin: "com.jcohy.oss-upload"
 
@@ -12,19 +10,11 @@ asciidoctor {
 	}
 }
 
-task asciidoctorMultipage(type: AsciidoctorTask) {
-	sources {
-		include "*.adoc"
-	}
-}
-
-
-asciidoctorMultipage.dependsOn(asciidoctor)
 
 task aggregatedAsciidoctor(type: Copy) {
 	dependsOn rootProject.asciidoctor
 	dependsOn rootProject.asciidoctorPdf
-	dependsOn rootProject.asciidoctorMultipage
+//	dependsOn rootProject.asciidoctorMultiPage
 
 	destinationDir = rootProject.file "${buildDir}"
 
@@ -32,9 +22,9 @@ task aggregatedAsciidoctor(type: Copy) {
 		into "generated/htmlsingle"
 	}
 
-	from(rootProject.asciidoctorMultipage.outputDir) {
-		into "generated/html5"
-	}
+//	from(rootProject.asciidoctorMultiPage.outputDir) {
+//		into "generated/html5"
+//	}
 
 	from(rootProject.asciidoctorPdf.outputDir) {
 		into "generated/pdf"

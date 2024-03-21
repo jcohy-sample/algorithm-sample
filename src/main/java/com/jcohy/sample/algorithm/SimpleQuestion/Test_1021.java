@@ -12,15 +12,15 @@ public class Test_1021 {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
         int n = scan.nextInt();
-        List list = new ArrayList();
+        List<String> list = new ArrayList<>();
         list.add("2");
         for (int i = 2; i <= n; i++) {
             if (isPrime(i)) {
-                list.add(i);
+                list.add(String.valueOf(i));
             }
         }
-        for (int i = 0; i < list.size(); i++) {
-            System.out.print(list.get(i) + " ");
+        for (String s : list) {
+            System.out.print(s + " ");
         }
         /**
          * 输入：6
