@@ -1,5 +1,7 @@
 package com.jcohy.sample.algorithm.leetcode.classic;
 
+import java.util.List;
+
 /**
  *
  * 169. 多数元素
