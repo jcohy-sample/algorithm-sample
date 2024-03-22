@@ -24,6 +24,10 @@ configure(allprojects) { abjects ->
     }
 }
 
+dependencies {
+    implementation("org.springframework:spring-core:6.0.2")
+}
+
 configure(rootProject) { abjects ->
     apply from: "${rootDir}/gradle/docs.gradle"
 }
