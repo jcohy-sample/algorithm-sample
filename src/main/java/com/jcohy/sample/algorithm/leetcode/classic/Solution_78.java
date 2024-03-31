@@ -8,7 +8,7 @@ import java.util.*;
  * Copyright: Copyright (c) 2023 <a href="https://www.jcohy.com" target="_blank">jcohy.com</a>
  *
  * <p> Description:
- * 给你一个整数数组 nums ，数组中的元素 互不相同 。返回该数组所有可能的子集（幂集）。
+ * 给你一个整数数组 nums ，数组中的元素互不相同 。返回该数组所有可能的子集（幂集）。
  * 解集 不能 包含重复的子集。你可以按 任意顺序 返回解集。
  * 输入：nums = [1,2,3]
  * 输出：[[],[1],[2],[1,2],[3],[1,3],[2,3],[1,2,3]]
@@ -112,9 +112,8 @@ public class Solution_78 {
 
     public static void main(String[] args) {
         Solution_78 solution78 = new Solution_78();
-//        int[] nums = {1, 2, 3,5,4,66,77,35,23,423,53};
+        int[] nums2 = {1, 2, 3, 5, 66, 77, 35, 23, 53, 12, 32, 49 ,67};
         int[] nums1 = {1, 2, 3};
-        int[] nums2 = {0};
         StopWatch watch = new StopWatch();
 
         watch.start("subsets1 --> nums1");
@@ -130,10 +129,10 @@ public class Solution_78 {
         watch.start("subsets1 --> nums2");
         List<List<Integer>> subsets1nums2 = solution78.subsets(nums2);
         watch.stop();
-        watch.start("subsets2 --> nums1");
+        watch.start("subsets2 --> nums2");
         List<List<Integer>> subsets2nums2 = solution78.subsets2(nums2);
         watch.stop();
-        watch.start("subsets3 --> nums1");
+        watch.start("subsets3 --> nums2");
         List<List<Integer>> subsets3nums2 = solution78.subsets3(nums2);
         watch.stop();
 
